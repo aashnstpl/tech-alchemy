@@ -1,8 +1,8 @@
-# tech-alchemy
+# tech-alchemy-assignment
 
 ## For Documents information:
     Inside Documents folder, here we have
-    2)Postman collection
+    1) Postman collection
 
 ## For Backend information:
     Inside Backend folder please follow README.md insturctions

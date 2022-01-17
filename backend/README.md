@@ -1,4 +1,4 @@
-# tech-alchemy
+# tech-alchemy-assignment
 Development is completed for building APIs with sequelize orm to integrate third party APIs.
 
 ## Description
