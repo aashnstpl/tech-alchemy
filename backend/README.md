@@ -1,5 +1,5 @@
 # tech-alchemy
-Development is completed for building APIs with sequelize orm to connect third party APIs.
+Development is completed for building APIs with sequelize orm to integrate third party APIs.
 
 ## Description
 This project covers basic necessities of most APIs.
