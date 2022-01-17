@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "62ff8c27-880e-4893-88be-332a2c83e14d",
+		"name": "tech alchemy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "News",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/news",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"news"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "FORECAST",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/weather?unit=metric&location=Banglore",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "unit",
+							"value": "metric"
+						},
+						{
+							"key": "location",
+							"value": "Banglore"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
